@@ -1,0 +1,6 @@
+../Core/Src/stm32f4xx_it.c:70:6:SVC_Handler	4	static
+../Core/Src/stm32f4xx_it.c:83:6:DebugMon_Handler	4	static
+../Core/Src/stm32f4xx_it.c:96:6:PendSV_Handler	4	static
+../Core/Src/stm32f4xx_it.c:109:6:SysTick_Handler	8	static
+../Core/Src/stm32f4xx_it.c:130:6:TIM1_CC_IRQHandler	8	static
+../Core/Src/stm32f4xx_it.c:144:6:TIM2_IRQHandler	8	static

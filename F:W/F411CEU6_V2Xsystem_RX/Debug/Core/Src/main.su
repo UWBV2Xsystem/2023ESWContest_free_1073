@@ -1,0 +1,13 @@
+../Core/Inc/TWR_uwb.c:91:5:ss_twr_initiator_RX	48	static
+../Core/Inc/PDOA_uwb.c:84:5:UWB_pdoa	48	static
+../Core/Inc/PDOA_uwb.c:252:13:rx_ok_cb	24	static
+../Core/Inc/PDOA_uwb.c:277:13:rx_err_cb	16	static
+../Core/Inc/get_XY_coo.c:22:5:get_XY_cood	64	static
+../Core/Src/main.c:80:6:test_run_info	24	static
+../Core/Src/main.c:94:5:main	8	static
+../Core/Src/main.c:178:6:SystemClock_Config	88	static
+../Core/Src/main.c:224:13:MX_SPI1_Init	8	static
+../Core/Src/main.c:262:13:MX_TIM1_Init	112	static
+../Core/Src/main.c:344:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:377:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:447:6:Error_Handler	4	static,ignoring_inline_asm
