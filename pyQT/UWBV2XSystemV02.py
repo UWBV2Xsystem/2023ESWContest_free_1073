@@ -5,7 +5,6 @@ from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QToolTip
 from PyQt5.QtGui import QIcon, QPixmap, QFont, QFontDatabase
 from PyQt5.QtCore import QCoreApplication, QTimer, QSize, Qt
 
-
 file_dir = "/home/rock/PyQt5"
 img_dir = file_dir + "/Qt_img"
 font_dir = file_dir
@@ -15,13 +14,12 @@ X_matrix_P = 0.25
 X_matrix_N = -0.25
 y_matrix_C = 1.5
 y_matrix_F = 3.0
+
 White = "color:#FFFFFF"
 Red = "color: #BE0000"
 Green = "color: #059100"
-
 Orange = "color: #D65B00"
 Pink = "color:#FF26A7"
-
 
 T_q = False
 
@@ -45,7 +43,6 @@ class UWB_V2X_System(QWidget):
         super().__init__()
 
         # car Img Location X, Y, W, H
-
         self.CarFarCenter = [914, 109, 93, 105]
         self.CarCloseCenter = [880, 204, 160, 179]
         self.CarFarLeft = [737, 109, 151, 96]
@@ -58,7 +55,7 @@ class UWB_V2X_System(QWidget):
         self.CoordDX = [440, 419, 336, 96]
         self.CoordDy = [1177, 419, 336, 96]
         self.TlCoord = {"R": 65, "Y": 203, "G": 341}
-        self.Tltime = [38, 65, 336, 96]
+        self.TlTime = [38, 65, 336, 96]
 
         # Thread & Timer
         self.t = None
@@ -123,13 +120,13 @@ class UWB_V2X_System(QWidget):
         self.paintLabelSetting(self.Uart_Car_DIST_label, Green, 70, Qt.AlignRight, *self.CoordDist)
         self.paintLabelSetting(self.Uart_Car_x_label, White, 42, Qt.AlignLeft, *self.CoordDX)
         self.paintLabelSetting(self.Uart_Car_y_label, White, 42, Qt.AlignLeft, *self.CoordDy)
-        self.paintLabelSetting(self.Uart_T_time_label, White, 42, Qt.AlignLeft, *self.Tltime)
+        self.paintLabelSetting(self.Uart_T_time_label, White, 42, Qt.AlignLeft, *self.TlTime)
 
         self.RunTread()
         self.RunTimer()
 
         # Exit
-        #self.btn_exit()
+        # self.btn_exit()
 
         # AP par
         self.showFullScreen()
