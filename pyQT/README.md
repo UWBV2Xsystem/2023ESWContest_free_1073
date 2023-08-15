@@ -1,3 +1,3 @@
 # GUI pyQT5
 
-Get data and display
+Get data from UART and display
