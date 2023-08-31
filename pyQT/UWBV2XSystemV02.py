@@ -1,11 +1,14 @@
 import sys
 import threading
-import mraa
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QToolTip
-from PyQt5.QtGui import QIcon, QPixmap, QFont, QFontDatabase
-from PyQt5.QtCore import QCoreApplication, QTimer, QSize, Qt
 
-file_dir = "/home/rock/PyQt5"
+from PyQt5.QtCore import QCoreApplication, QTimer, QSize, Qt
+from PyQt5.QtGui import QIcon, QPixmap, QFont, QFontDatabase
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton
+# import mraa
+
+
+# file_dir = "/home/rock/PyQt5"
+file_dir = "/pyqt"
 img_dir = file_dir + "/Qt_img"
 font_dir = file_dir
 font_path = font_dir + "/utoimagegothicBTTF.ttf"
@@ -103,7 +106,7 @@ class UWB_V2X_System(QWidget):
         self.BackGround_Img.setPixmap(pixmap)
 
         # Set UART parameters
-        self.SetUart("/dev/ttyS2", 115200)
+        # self.SetUart("/dev/ttyS2", 115200)
 
         # Font
         font_id = QFontDatabase.addApplicationFont(font_path)
@@ -116,27 +119,27 @@ class UWB_V2X_System(QWidget):
         self.Uart_Car_DIST_label = QLabel(self)
         self.Uart_T_time_label = QLabel(self)
 
-        self.paintLabelSetting(self.Uart_Car_PDoA_label, Pink, 70, Qt.AlignRight, *self.CoordPdoa)
-        self.paintLabelSetting(self.Uart_Car_DIST_label, Green, 70, Qt.AlignRight, *self.CoordDist)
-        self.paintLabelSetting(self.Uart_Car_x_label, White, 42, Qt.AlignLeft, *self.CoordDX)
-        self.paintLabelSetting(self.Uart_Car_y_label, White, 42, Qt.AlignLeft, *self.CoordDy)
-        self.paintLabelSetting(self.Uart_T_time_label, White, 42, Qt.AlignLeft, *self.TlTime)
+        self.paintLabelSetting(self.Uart_Car_PDoA_label, Pink, 70, Qt.AlignmentFlag.AlignRight, *self.CoordPdoa)
+        self.paintLabelSetting(self.Uart_Car_DIST_label, Green, 70, Qt.AlignmentFlag.AlignRight, *self.CoordDist)
+        self.paintLabelSetting(self.Uart_Car_x_label, White, 42, Qt.AlignmentFlag.AlignLeft, *self.CoordDX)
+        self.paintLabelSetting(self.Uart_Car_y_label, White, 42, Qt.AlignmentFlag.AlignLeft, *self.CoordDy)
+        self.paintLabelSetting(self.Uart_T_time_label, White, 42, Qt.AlignmentFlag.AlignLeft, *self.TlTime)
 
-        self.RunTread()
+        # self.RunTread()
         self.RunTimer()
 
         # Exit
         # self.btn_exit()
-
+        self.show()
         # AP par
-        self.showFullScreen()
-        self.setCursor(Qt.BlankCursor)
+        # self.showFullScreen()
+        # self.setCursor(Qt.BlankCursor)
 
-    def SetUart(self, Port, rate):
-        self.u = mraa.Uart(Port)
-        self.u.setBaudRate(rate)
-        self.u.setMode(8, mraa.UART_PARITY_NONE, 1)
-        self.u.setFlowcontrol(False, False)
+    # def SetUart(self, Port, rate):
+    #     self.u = mraa.Uart(Port)
+    #     self.u.setBaudRate(rate)
+    #     self.u.setMode(8, mraa.UART_PARITY_NONE, 1)
+    #     self.u.setFlowcontrol(False, False)
 
     def paintLabelSetting(self, Label, Color, FontSize, Align, X, Y, w, h):
         Label.setGeometry(X, Y, w, h)

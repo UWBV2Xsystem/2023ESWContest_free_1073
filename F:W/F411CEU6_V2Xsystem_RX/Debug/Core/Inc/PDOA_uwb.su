@@ -1,3 +1,0 @@
-../Core/Inc/PDOA_uwb.c:84:5:UWB_pdoa	48	static
-../Core/Inc/PDOA_uwb.c:252:13:rx_ok_cb	24	static
-../Core/Inc/PDOA_uwb.c:277:13:rx_err_cb	16	static

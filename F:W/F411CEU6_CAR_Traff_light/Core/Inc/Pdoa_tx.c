@@ -51,7 +51,7 @@ uint8_t tx_msg[] = { 0xFF, 0, 'T', 'L', 'I', 'G', 'H', 'T', '0', 'Y' };
 #define FRAME_LENGTH (sizeof(tx_msg) + FCS_LEN) // The real length that is going to be transmitted
 
 /* Inter-frame delay period, in milliseconds. */
-#define TX_DELAY_MS 100
+#define TX_DELAY_MS 50
 
 /* Values for the PG_DELAY and TX_POWER registers reflect the bandwidth and power of the spectrum at the current
  * temperature. These values can be calibrated prior to taking reference measurements. See NOTE 2 below. */
@@ -121,8 +121,6 @@ int Pdoa_uwb_tx(void)
 
 		/* Execute a delay between transmissions. */
 		Sleep(TX_DELAY_MS);
-
-
 
 		/* Increment the blink frame sequence number (modulo 256). */
 		tx_msg[BLINK_FRAME_SN_IDX]++;
