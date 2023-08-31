@@ -22,7 +22,7 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 * **IDE** : stm32cudeIDE, Pycharm
 * **Framework** : Qt5
 * **Tool** : kicad, fusion 360
-* **os** : Debian
+* **OS** : Debian
 * **Library** : openCV
 
 ### 📌 주요기능
