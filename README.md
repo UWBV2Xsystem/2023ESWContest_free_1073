@@ -17,5 +17,3 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 팀원  김영빈 _ 
 
 
-
-??
