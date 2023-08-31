@@ -20,8 +20,8 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 ### ⚙️ 개발환경
 * C, python3.8.10
 * **IDE** : stm32cudeIDE, Pycharm
-* **Framework** : Qt5
-* **Tool** : kicad, fusion 360
+* **Framework** : pyQt5
+* **Tool** : kicad, fusion360
 * **OS** : Debian
 * **Library** : openCV
 
