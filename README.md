@@ -29,6 +29,10 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 
 UWB 모듈을 통해 거리와 상대각도를 측정하여 GUI를 통해 출력
 
+
+[![Video Label](http://img.youtube.com/vi/2-DkrryEUOI/0.jpg)](https://youtu.be/2-DkrryEUOI)
+
+
 * **영상링크** : https://youtu.be/2-DkrryEUOI
 
 
