@@ -1,1 +1,1 @@
-# firmWare for STM32F411CEU6 & DW3220
+# firmware for STM32F411CEU6 & DW3220
