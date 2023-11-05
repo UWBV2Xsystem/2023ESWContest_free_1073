@@ -1,6 +1,7 @@
 # FPGA VHDL
 -------
 
+Lattice LCMXO2-1200HC-6SG32C
 
 ## 데이터 처리를 위한 FPGA
 
