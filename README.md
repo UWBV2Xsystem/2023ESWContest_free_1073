@@ -25,9 +25,11 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 * **OS** : Debian
 * **Library** : openCV
 
+
 ### 📌 주요기능
 
 UWB 모듈을 통해 거리와 상대각도를 측정하여 GUI에 출력
+
 
 
 
