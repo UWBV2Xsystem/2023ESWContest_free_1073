@@ -1,2 +1,0 @@
-../Core/Inc/deca_mutex.c:50:17:decamutexon	16	static
-../Core/Inc/deca_mutex.c:76:6:decamutexoff	16	static
