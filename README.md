@@ -19,6 +19,18 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 - 팀원  홍선주 _ 거리 측정 알고리즘 작성, 위치 측위 Testbed 구성, pyQT GUI 제작 및 코드 작성
 
 
+
+### 📋 개발내용
+------
+- H/W   : [UWB, STM32F411 Module]()
+- H/W   : [FPGA Uart Module]()
+- H/W   : [Linux Mother Board]()
+
+- F/W   : [UWB Module Control]()
+- VHDL  : [FPGA RTL]()
+- GUI   : [Linux pyQT]()
+
+
 ### ⚙️ 개발환경
 ------
 * C, python3.8.10, VHDL
