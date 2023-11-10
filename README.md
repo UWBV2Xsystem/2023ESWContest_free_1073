@@ -22,13 +22,18 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 
 ### 📋 개발내용
 ------
-- H/W   : [UWB, STM32F411 Module]()
-- H/W   : [FPGA Uart Module]()
-- H/W   : [Linux Mother Board]()
+* UWB_STM32F411_Module
+  - [Schematic]()
+  - [F/W](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/tree/main/F:W)  
 
-- F/W   : [UWB Module Control](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/tree/main/F:W)
-- VHDL  : [FPGA RTL](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/tree/main/FPGA_VHDL)
-- GUI   : [Linux pyQT](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/tree/main/pyQT)
+* FPGA_UART_Module
+  - [Schematic]()
+  - [FPGA RTL](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/tree/main/FPGA_VHDL)
+
+* Linux_Mother_Board
+  - [Schematic]()
+  - [GUI_pyQT](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/tree/main/pyQT)
+ 
 
 
 ### ⚙️ 개발환경
