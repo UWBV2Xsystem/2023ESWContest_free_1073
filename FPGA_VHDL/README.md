@@ -3,7 +3,7 @@
 
 Lattice LCMXO2-1200HC-6SG32C
 
-![Uploading IMG_0659.jpeg…]()
+![IMG_0659](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/assets/109073690/f7d3f2fa-13ed-444e-b46c-e2755fc55d89)
 
 
 ## 데이터 처리를 위한 FPGA
