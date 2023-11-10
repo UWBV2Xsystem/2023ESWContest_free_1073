@@ -1,15 +1,7 @@
-# Linux_Mother_Board
+# Mechanical_design
 -------
 
-- Radxa Rock pi cm3
-![IMG_0289 2](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/assets/109073690/9a9da7e4-cc6e-4470-968f-6325c721b38a)
-
-## GUI 구현을 위한 단말
 
 
-### Schematic
-![Schematic](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/assets/109073690/4e763ebe-d31b-426f-b62a-3f4fd0be9ec1)
-
-
-
-
+![Ren1](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/assets/109073690/759c35f1-2ff8-41d3-a52d-c1eed2db92e7)
+![Ren2](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/assets/109073690/158a4a09-c651-485b-89d2-fda5c93fa84b)
