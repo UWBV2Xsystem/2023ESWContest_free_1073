@@ -44,12 +44,13 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 
 ### ⚙️ 개발환경
 ------
-* **Language**    : C, python3.8.10, VHDL
-* **IDE**         : stm32cudeIDE, Pycharm
-* **Framework**   : pyQt5
-* **Tool**        : kicad, fusion360, Lattice Diamond
-* **OS**          : Debian
-* **Library**     : openCV
+| **Language**    | C, python3.8.10, VHDL |
+| ------ | ------ |
+| **IDE**         | stm32cudeIDE, Pycharm |
+| **Framework**   | pyQt5 |
+| **Tool**        | kicad, fusion360, Lattice Diamond |
+| **OS**          | Debian |
+| **Library**     | openCV |
 
 
 ### 📌 주요기능
