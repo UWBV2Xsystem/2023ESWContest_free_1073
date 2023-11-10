@@ -42,9 +42,6 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 
 
 
-
-https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/edit/main/Mechanical_design/README.md
-
 ### ⚙️ 개발환경
 ------
 * C, python3.8.10, VHDL
