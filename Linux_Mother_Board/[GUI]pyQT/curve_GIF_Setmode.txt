@@ -1,0 +1,23 @@
+def Right_Gif(self):
+        self.RightCurve = QMovie("V2X_img/V2X_RightCurve.gif", QByteArray(), self)
+        self.RightCurve.setCacheMode(QMovie.CacheAll)
+        self.Curve_GIF.setMovie(self.RightCurve)
+        self.RightCurve.start()
+
+    def Reverse_Right_Gif(self):
+        self.ReverseRightCurve = QMovie("V2X_img/V2X_ReverseRightCurve.gif", QByteArray(), self)
+        self.ReverseRightCurve.setCacheMode(QMovie.CacheAll)
+        self.Curve_GIF.setMovie(self.ReverseRightCurve)
+        self.ReverseRightCurve.start()
+
+    def Left_Gif(self):
+        self.LeftCurve = QMovie("V2X_img/V2X_LeftCurve.gif", QByteArray(), self)
+        self.LeftCurve.setCacheMode(QMovie.CacheAll)
+        self.Curve_GIF.setMovie(self.LeftCurve)
+        self.LeftCurve.start()
+
+    def Reverse_Left_Gif(self):
+        self.ReverseLeftCurve = QMovie("V2X_img/V2X_ReverseLeftCurve.gif", QByteArray(), self)
+        self.ReverseLeftCurve.setCacheMode(QMovie.CacheAll)
+        self.Curve_GIF.setMovie(self.ReverseLeftCurve)
+        self.ReverseLeftCurve.start()

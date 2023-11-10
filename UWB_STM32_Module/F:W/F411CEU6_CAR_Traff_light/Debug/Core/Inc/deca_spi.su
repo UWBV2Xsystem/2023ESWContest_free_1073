@@ -1,0 +1,6 @@
+../Core/Inc/deca_spi.c:36:5:openspi	4	static
+../Core/Inc/deca_spi.c:47:5:closespi	4	static
+../Core/Inc/deca_spi.c:59:5:writetospiwithcrc	32	static
+../Core/Inc/deca_spi.c:87:5:writetospi	32	static
+../Core/Inc/deca_spi.c:120:10:spi_cs_low_delay	16	static
+../Core/Inc/deca_spi.c:144:5:readfromspi	32	static
