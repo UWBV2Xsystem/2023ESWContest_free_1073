@@ -49,7 +49,7 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 * **Framework**   : pyQt5
 * **Tool**        : kicad, fusion360, Lattice Diamond
 * **OS**          : Debian
-* **Library** : openCV
+* **Library**     : openCV
 
 
 ### 📌 주요기능
