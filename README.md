@@ -1,7 +1,8 @@
 # 2023ESWContest_free_1136
-
-
 ## [ UWB로 구현한 V2X System ]
+
+
+
 
 ### 🚙 프로젝트 소개
 ------
@@ -44,13 +45,14 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 
 ### ⚙️ 개발환경
 ------
-| **Language**    | C, python3.8.10, VHDL |
-| ------ | ------ |
-| **IDE**         | stm32cudeIDE, Pycharm |
-| **Framework**   | pyQt5 |
-| **Tool**        | kicad, fusion360, Lattice Diamond |
-| **OS**          | Debian |
-| **Library**     | openCV |
+|    **구분**     |              **내용**               |
+|:-------------:|:---------------------------------:|
+| **Language**  |       C, Python3.8.10, VHDL       |
+|    **IDE**    |       STM32CudeIDE, Pycharm       |
+| **Framework** |               pyQt5               |
+|   **Tool**    | Kicad, Fusion360, Lattice Diamond |
+|    **OS**     |              Debian               |
+|  **Library**  |              OpenCV               |
 
 
 ### 📌 주요기능
