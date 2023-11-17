@@ -26,7 +26,7 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 ------
 * UWB_STM32F411_Module
   - [Schematic](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/blob/main/UWB_STM32_Module/Schematic.pdf)
-  - [F/W](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/tree/main/F:W)  
+  - [F/W](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/tree/main/UWB_STM32_Module/F%3AW)  
 
 * FPGA_UART_Module
   - [Schematic](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/blob/main/FPGA_UART_Module/Schematic.pdf)
@@ -34,7 +34,7 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 
 * Linux_Mother_Board
   - [Schematic](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/blob/main/Linux_Mother_Board/Schematic.pdf)
-  - [GUI_pyQT](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/tree/main/pyQT)
+  - [GUI_pyQT](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/tree/main/Linux_Mother_Board/pyQT)
  
 * Linux_LCD_Driver
   - [Driver](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/tree/main/Linux_LCD_Driver)
