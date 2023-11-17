@@ -30,7 +30,7 @@ UWB(Ultra wide band) 통신 모듈을 활용하여 V2X(Vehicle-to-everything) �
 
 * FPGA_UART_Module
   - [Schematic](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/blob/main/FPGA_UART_Module/Schematic.pdf)
-  - [FPGA RTL](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/tree/main/FPGA_VHDL)
+  - [FPGA RTL](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/tree/main/FPGA_UART_Module/RTL)
 
 * Linux_Mother_Board
   - [Schematic](https://github.com/UWBV2Xsystem/2023ESWContest_free_1136/blob/main/Linux_Mother_Board/Schematic.pdf)
